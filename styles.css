@@ -1,6 +1,6 @@
-.navbar__btn button{
+.navbar__btn button {
     margin-left: 20px;
-    font-weight: 400;
+    font-weight: bold;
     color: rgb(0, 0, 0);
     padding: 15px 25px;
     background: rgb(227, 200, 189);
@@ -12,9 +12,9 @@
 
 .redes {
     background-color: rgb(227, 200, 189);
-    display:inline-block;
+    display: inline-block;
     text-align: center;
-    
+
 }
 
 #mi-boton:hover {
@@ -28,10 +28,24 @@
 
 a {
     text-decoration: none;
-  }
+}
 
 .enviar {
-    height: 40px; 
-    color: rgb(0, 0, 0); 
+    height: 40px;
+    color: rgb(0, 0, 0);
     background-color: rgb(227, 200, 189);
+}
+
+.card-body {
+    height: 20rem;
+    background-image: linear-gradient(rgb(227, 200, 189), lightcoral);
+}
+
+#formulario {
+    padding-top: 5%;
+}
+
+.gift {
+    color: crimson;
+    font-size: x-large;
 }

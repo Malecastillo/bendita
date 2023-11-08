@@ -2,7 +2,6 @@ const giftcards = {
   giftcardI: 5000,
   giftcardII: 10000,
   giftcardIII: 15000,
-  giftcardIV: 20000,
 };
 
 const cantidad = document.getElementById('cantidad');

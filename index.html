@@ -37,7 +37,6 @@
       </div>
     </nav>
   </header>
-
   <main class="container-fluid">
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
@@ -76,9 +75,6 @@
       </button>
     </div>
   </main>
-
-
-
 
   <section>
     <div class="container-md mt-4">
@@ -120,108 +116,83 @@
 
   </section>
 
-  <main>
-    <div class="container-fluid mx-auto" style="padding-top: 4rem;" id="cards">
-      <h1 class="fs-1 fw-light text-center" style="padding-bottom: 3rem;"> <strong>Elegí tu Giftcard de
-          regalo!!!</strong></h1>
-      <div class="row justify-content-center g-1">
-        <div class="col-3" style="width: 13rem;">
-          <div class="card border p-1">
-            <div class="card-body text-center">
-              <h5 class="card-title mt-4 gift"><u>Giftcard I</u></h5>
-              <p class="card-text mt-4 fw-bold" style="font-size: x-large;">$5000</p>
-              <p class="card-text fw-bold"><button type="button" class="btn btn-light mt-4 gift">10% off</button></p>
-              <h6 class="card-subtitle mb-2 mt-4 text-muted fw-bold" style="font-size: 0.8rem;">* abonando con
-                transferencia
-                bancaria
-              </h6>
-            </div>
+  <main id="cards">
+    <h1 class="fs-1 fw-light text-center" style="padding-bottom: 3rem;"> <strong>Elegí tu Giftcard de
+        regalo!!!</strong></h1>
+    <div class="container-fluid">
+      <div class="services">
+        <div class="service service1">
+          <div class="front">
+            <h4>Giftcard I <strong> $5000 </strong></h4>
+          </div>
+          <div class="back">
+            <h3>Giftcard I <strong> $5000 </strong></h3>
+            <p>10% off *abonando con transferencia...</p>
           </div>
         </div>
-        <div class="col-3" style="width: 13rem;">
-          <div class="card border p-1">
-            <div class="card-body text-center">
-              <h5 class="card-title mt-4 gift"><u>Giftcard II</u></h5>
-              <p class="card-text mt-4 fw-bold" style="font-size: x-large;">$10000</p>
-              <p class="card-text fw-bold"><button type="button" class="btn btn-light mt-4 gift">10% off</button></p>
-              <h6 class="card-subtitle mb-2 mt-4 text-muted fw-bold" style="font-size: 0.8rem;">* abonando con
-                transferencia
-                bancaria
-              </h6>
-            </div>
+        <div class="service service2">
+          <div class="front">
+            <h4>Giftcard II <strong> $10000 </strong></h4>
+
+          </div>
+          <div class="back">
+            <h3>Giftcard II <strong> $10000 </strong></h3>
+            <p>10% off *abonando con transferencia...</p>
           </div>
         </div>
-        <div class="col-3" style="width: 13rem;">
-          <div class="card border p-1">
-            <div class="card-body text-center">
-              <h5 class="card-title mt-4 gift"><u>Giftcard III</u></h5>
-              <p class="card-text mt-4 fw-bold" style="font-size: x-large;">$15000</p>
-              <p class="card-text fw-bold"><button type="button" class="btn btn-light mt-4 gift">10% off</button></p>
-              <h6 class="card-subtitle mb-2 text-muted mt-4 fw-bold" style="font-size: 0.8rem;">* abonando con
-                transferencia
-                bancaria
-              </h6>
-            </div>
+        <div class="service service3">
+          <div class="front">
+            <h4> Giftcard III <strong> $15000 </strong></h4>
+
           </div>
-        </div>
-        <div class="col-3" style="width: 13rem;">
-          <div class="card border p-1">
-            <div class="card-body text-center">
-              <h5 class="card-title mt-4 gift"><u>Giftcard IV</u></h5>
-              <p class="card-text mt-4 fw-bold" style="font-size: x-large;">$20000</p>
-              <p class="card-text fw-bold"><button type="button" class="btn btn-light mt-4 gift">10% off</button></p>
-              <h6 class="card-subtitle mb-2 mt-4 text-muted fw-bold" style="font-size: 0.8rem;">* abonando con
-                transferencia
-                bancaria
-              </h6>
-            </div>
+          <div class="back">
+            <h3>Giftcard III <strong> $15000 </strong></h3>
+            <p>10% off *abonando con transferencia...</p>
           </div>
         </div>
       </div>
-    </div>
 
 
-    <div class="container w-50 pt-2">
-      <form class="row g-1 gx-2 formulario" id="formulario">
-        <h1 class="fs-1 fw-light text-center"><strong>Completá tus datos:</strong></h1>
-        <br>
-        <div class="col-md-6 mb-3">
-          <input type="text" class="form-control" placeholder="Nombre" id="nombre">
-        </div>
-        <div class="col-md-6 mb-3">
-          <input type="text" class="form-control" placeholder="Apellido" id="apellido">
-        </div>
-        <div class="mb-3">
-          <input type="email" class="form-control" id="correo" placeholder="Correo">
-        </div>
-        <div class="col-md-6 mb-3">
-          <label for="cantidad" class="form-label">Cantidad</label>
-          <input type="text" class="form-control" id="cantidad" placeholder="Cantidad">
-        </div>
-        <div class="col-md-6 mb-3">
-          <label for="cantidad" class="form-label">Categoría</label>
-          <select id="categoria" class="form-select">
-            <option value="">Sin categoria</option>
-            <option value="giftcardI">Giftcard I</option>
-            <option value="giftcardII">Giftcard II</option>
-            <option value="giftcardIII">Giftcard III</option>
-            <option value="giftcardIV">Giftcard IV</option>
-          </select>
-        </div>
-        <div class="mb-3">
-          <p class="alert alert-danger" id="totalAPagar">Total a Pagar: $</p>
-        </div>
+      <div class="container w-50 pt-2">
+        <form class="row g-1 gx-2 formulario">
+          <h1 class="fs-1 fw-light text-center"><strong>Completá tus datos:</strong></h1>
+          <br>
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" placeholder="Nombre" id="nombre">
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" placeholder="Apellido" id="apellido">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" id="correo" placeholder="Correo">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="cantidad" class="form-label">Cantidad</label>
+            <input type="text" class="form-control" id="cantidad" placeholder="Cantidad">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="cantidad" class="form-label">Categoría</label>
+            <select id="categoria" class="form-select">
+              <option value="">Sin categoria</option>
+              <option value="giftcardI">Giftcard I</option>
+              <option value="giftcardII">Giftcard II</option>
+              <option value="giftcardIII">Giftcard III</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <p class="alert alert-danger" id="totalAPagar">Total a Pagar: $</p>
+          </div>
 
-        <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn text-white fs-6 btnBorrar" style="background-color: lightcoral;" type=" button"
-            id="borrar"><strong>Borrar</strong></button>
-        </div>
-        <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn text-white fs-6 btnResumen" style="background-color: lightcoral;" type=" button"
-            id="resumen"><strong>Resumen</strong></button>
-        </div>
-      </form>
-    </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn text-white fs-6 btnBorrar" style="background-color: lightcoral;" type=" button"
+              id="borrar"><strong>Borrar</strong></button>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn text-white fs-6 btnResumen" style="background-color: lightcoral;" type=" button"
+              id="resumen"><strong>Resumen</strong></button>
+          </div>
+        </form>
+      </div>
   </main>
   <br>
   <br>

@@ -131,3 +131,26 @@ a {
 	transform: rotateX(180deg);
 }
 
+form {
+    width: 70vw;
+	margin: 0 auto;
+}
+
+form .inputGroup {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+form input {
+    width: 48%;
+    margin-bottom: 10px;
+    font-size: 1em;
+    font-weight: 500;
+	
+}
+
+form p {
+    font-size: 0.8em;
+    margin-bottom: 20px;
+}
